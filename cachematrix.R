@@ -1,4 +1,6 @@
 ####     makeCacheMatrix & cacheSolve   ####
+
+
 # makeCacheMatrix creates a function that returns a list of user defined properties,
 # that are prescribed as functions, to a matrix which is the formal argument.
 # The objects x and i store the matrix and it's inverse respectively. The role of
@@ -26,9 +28,6 @@ makeCacheMatrix <- function(x = matrix()) {
         list(setMatrix = setMatrix, getMatrix = getMatrix,
              setInverse = setInverse, getInverse = getInverse)
 }
-
-
-## Write a short comment describing this function
 
 # cacheSolve() basically computes the inverse of the matrix that is passed as an argment.
 # If the matrix that is passed to the cacheSolve, already has the inverse computed 
