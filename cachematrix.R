@@ -29,12 +29,12 @@ makeCacheMatrix <- function(x = matrix()) {
              setInverse = setInverse, getInverse = getInverse)
 }
 
-# cacheSolve() basically computes the inverse of the matrix that is passed as an argment.
+# cacheSolve() basically computes the inverse of the matrix that is passed as an argument.
 # If the matrix that is passed to the cacheSolve, already has the inverse computed 
 # previously using makeCacheMatrix(), then the inverse is just retrieved from that function.
 # This process saves a lot of compuational time as it only retrives an existing value
 # insted of computing it again.
-# Otherwise if the matrix passed doesn't have it's inverse computed, then inverse 
+# Otherwise if the matrix passed doesn't have its inverse computed, then inverse 
 # is computed for the passed matrix using setInverse function.
 
 cacheSolve <- function(x, ...) {
