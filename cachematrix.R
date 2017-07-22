@@ -1,8 +1,4 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
-
+####     makeCacheMatrix & cacheSolve   ####
 # makeCacheMatrix creates a function that returns a list of user defined properties,
 # that are prescribed as functions, to a matrix which is the formal argument.
 # The objects x and i store the matrix and it's inverse respectively. The role of
